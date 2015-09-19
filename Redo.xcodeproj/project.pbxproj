@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FD7FBC61BAD085200FBB793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */; };
+		4FD7FBC81BAD085200FBB793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC71BAD085200FBB793 /* ViewController.swift */; };
+		4FD7FBCB1BAD085200FBB793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC91BAD085200FBB793 /* Main.storyboard */; };
+		4FD7FBCD1BAD085200FBB793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBCC1BAD085200FBB793 /* Assets.xcassets */; };
+		4FD7FBD01BAD085200FBB793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBCE1BAD085200FBB793 /* LaunchScreen.storyboard */; };
+		4FD7FBDB1BAD085200FBB793 /* RedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBDA1BAD085200FBB793 /* RedoTests.swift */; };
+		4FD7FBE61BAD085200FBB793 /* RedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBE51BAD085200FBB793 /* RedoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FD7FBD71BAD085200FBB793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD7FBBA1BAD085200FBB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD7FBC11BAD085200FBB793;
+			remoteInfo = Redo;
+		};
+		4FD7FBE21BAD085200FBB793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD7FBBA1BAD085200FBB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD7FBC11BAD085200FBB793;
+			remoteInfo = Redo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FD7FBC21BAD085200FBB793 /* Redo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FD7FBC71BAD085200FBB793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FD7FBCA1BAD085200FBB793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FD7FBCC1BAD085200FBB793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FD7FBCF1BAD085200FBB793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FD7FBD11BAD085200FBB793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD7FBD61BAD085200FBB793 /* RedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD7FBDA1BAD085200FBB793 /* RedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedoTests.swift; sourceTree = "<group>"; };
+		4FD7FBDC1BAD085200FBB793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD7FBE11BAD085200FBB793 /* RedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD7FBE51BAD085200FBB793 /* RedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedoUITests.swift; sourceTree = "<group>"; };
+		4FD7FBE71BAD085200FBB793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD7FBBF1BAD085200FBB793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD7FBD31BAD085200FBB793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD7FBDE1BAD085200FBB793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD7FBB91BAD085200FBB793 = {
+			isa = PBXGroup;
+			children = (
+				4FD7FBC41BAD085200FBB793 /* Redo */,
+				4FD7FBD91BAD085200FBB793 /* RedoTests */,
+				4FD7FBE41BAD085200FBB793 /* RedoUITests */,
+				4FD7FBC31BAD085200FBB793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD7FBC31BAD085200FBB793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7FBC21BAD085200FBB793 /* Redo.app */,
+				4FD7FBD61BAD085200FBB793 /* RedoTests.xctest */,
+				4FD7FBE11BAD085200FBB793 /* RedoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD7FBC41BAD085200FBB793 /* Redo */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */,
+				4FD7FBC71BAD085200FBB793 /* ViewController.swift */,
+				4FD7FBC91BAD085200FBB793 /* Main.storyboard */,
+				4FD7FBCC1BAD085200FBB793 /* Assets.xcassets */,
+				4FD7FBCE1BAD085200FBB793 /* LaunchScreen.storyboard */,
+				4FD7FBD11BAD085200FBB793 /* Info.plist */,
+			);
+			path = Redo;
+			sourceTree = "<group>";
+		};
+		4FD7FBD91BAD085200FBB793 /* RedoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7FBDA1BAD085200FBB793 /* RedoTests.swift */,
+				4FD7FBDC1BAD085200FBB793 /* Info.plist */,
+			);
+			path = RedoTests;
+			sourceTree = "<group>";
+		};
+		4FD7FBE41BAD085200FBB793 /* RedoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7FBE51BAD085200FBB793 /* RedoUITests.swift */,
+				4FD7FBE71BAD085200FBB793 /* Info.plist */,
+			);
+			path = RedoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD7FBC11BAD085200FBB793 /* Redo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD7FBEA1BAD085200FBB793 /* Build configuration list for PBXNativeTarget "Redo" */;
+			buildPhases = (
+				4FD7FBBE1BAD085200FBB793 /* Sources */,
+				4FD7FBBF1BAD085200FBB793 /* Frameworks */,
+				4FD7FBC01BAD085200FBB793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Redo;
+			productName = Redo;
+			productReference = 4FD7FBC21BAD085200FBB793 /* Redo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FD7FBD51BAD085200FBB793 /* RedoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD7FBED1BAD085200FBB793 /* Build configuration list for PBXNativeTarget "RedoTests" */;
+			buildPhases = (
+				4FD7FBD21BAD085200FBB793 /* Sources */,
+				4FD7FBD31BAD085200FBB793 /* Frameworks */,
+				4FD7FBD41BAD085200FBB793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD7FBD81BAD085200FBB793 /* PBXTargetDependency */,
+			);
+			name = RedoTests;
+			productName = RedoTests;
+			productReference = 4FD7FBD61BAD085200FBB793 /* RedoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FD7FBE01BAD085200FBB793 /* RedoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD7FBF01BAD085200FBB793 /* Build configuration list for PBXNativeTarget "RedoUITests" */;
+			buildPhases = (
+				4FD7FBDD1BAD085200FBB793 /* Sources */,
+				4FD7FBDE1BAD085200FBB793 /* Frameworks */,
+				4FD7FBDF1BAD085200FBB793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD7FBE31BAD085200FBB793 /* PBXTargetDependency */,
+			);
+			name = RedoUITests;
+			productName = RedoUITests;
+			productReference = 4FD7FBE11BAD085200FBB793 /* RedoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD7FBBA1BAD085200FBB793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ElaWorkshop;
+				TargetAttributes = {
+					4FD7FBC11BAD085200FBB793 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4FD7FBD51BAD085200FBB793 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4FD7FBC11BAD085200FBB793;
+					};
+					4FD7FBE01BAD085200FBB793 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4FD7FBC11BAD085200FBB793;
+					};
+				};
+			};
+			buildConfigurationList = 4FD7FBBD1BAD085200FBB793 /* Build configuration list for PBXProject "Redo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FD7FBB91BAD085200FBB793;
+			productRefGroup = 4FD7FBC31BAD085200FBB793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD7FBC11BAD085200FBB793 /* Redo */,
+				4FD7FBD51BAD085200FBB793 /* RedoTests */,
+				4FD7FBE01BAD085200FBB793 /* RedoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD7FBC01BAD085200FBB793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD7FBD01BAD085200FBB793 /* LaunchScreen.storyboard in Resources */,
+				4FD7FBCD1BAD085200FBB793 /* Assets.xcassets in Resources */,
+				4FD7FBCB1BAD085200FBB793 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD7FBD41BAD085200FBB793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD7FBDF1BAD085200FBB793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD7FBBE1BAD085200FBB793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD7FBC81BAD085200FBB793 /* ViewController.swift in Sources */,
+				4FD7FBC61BAD085200FBB793 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD7FBD21BAD085200FBB793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD7FBDB1BAD085200FBB793 /* RedoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD7FBDD1BAD085200FBB793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD7FBE61BAD085200FBB793 /* RedoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FD7FBD81BAD085200FBB793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD7FBC11BAD085200FBB793 /* Redo */;
+			targetProxy = 4FD7FBD71BAD085200FBB793 /* PBXContainerItemProxy */;
+		};
+		4FD7FBE31BAD085200FBB793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD7FBC11BAD085200FBB793 /* Redo */;
+			targetProxy = 4FD7FBE21BAD085200FBB793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FD7FBC91BAD085200FBB793 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD7FBCA1BAD085200FBB793 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FD7FBCE1BAD085200FBB793 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD7FBCF1BAD085200FBB793 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD7FBE81BAD085200FBB793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FD7FBE91BAD085200FBB793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD7FBEB1BAD085200FBB793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Redo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ela.build.Redo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FD7FBEC1BAD085200FBB793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Redo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ela.build.Redo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FD7FBEE1BAD085200FBB793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ela.build.RedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redo.app/Redo";
+			};
+			name = Debug;
+		};
+		4FD7FBEF1BAD085200FBB793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ela.build.RedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redo.app/Redo";
+			};
+			name = Release;
+		};
+		4FD7FBF11BAD085200FBB793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ela.build.RedoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Redo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4FD7FBF21BAD085200FBB793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ela.build.RedoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Redo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD7FBBD1BAD085200FBB793 /* Build configuration list for PBXProject "Redo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD7FBE81BAD085200FBB793 /* Debug */,
+				4FD7FBE91BAD085200FBB793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD7FBEA1BAD085200FBB793 /* Build configuration list for PBXNativeTarget "Redo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD7FBEB1BAD085200FBB793 /* Debug */,
+				4FD7FBEC1BAD085200FBB793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FD7FBED1BAD085200FBB793 /* Build configuration list for PBXNativeTarget "RedoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD7FBEE1BAD085200FBB793 /* Debug */,
+				4FD7FBEF1BAD085200FBB793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FD7FBF01BAD085200FBB793 /* Build configuration list for PBXNativeTarget "RedoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD7FBF11BAD085200FBB793 /* Debug */,
+				4FD7FBF21BAD085200FBB793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD7FBBA1BAD085200FBB793 /* Project object */;
+}
