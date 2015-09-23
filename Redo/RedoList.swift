@@ -1,0 +1,16 @@
+//
+//  RedoList.swift
+//  Redo
+//
+//  Created by AquarHEAD L. on 20/09/2015.
+//  Copyright © 2015 ElaWorkshop. All rights reserved.
+//
+
+import Foundation
+import CoreData
+
+class RedoList: NSManagedObject {
+
+// Insert code here to add functionality to your managed object subclass
+
+}

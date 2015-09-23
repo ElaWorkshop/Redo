@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="Redo" representedClassName=".Redo" syncable="YES">
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="list" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="RedoList" inverseName="redos" inverseEntity="RedoList" syncable="YES"/>
+    </entity>
+    <entity name="RedoList" representedClassName=".RedoList" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="redos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Redo" inverseName="list" inverseEntity="Redo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Redo" positionX="0" positionY="45" width="128" height="75"/>
+        <element name="RedoList" positionX="-36" positionY="9" width="128" height="75"/>
+    </elements>
+</model>

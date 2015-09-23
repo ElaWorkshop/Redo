@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4FD7FBC61BAD085200FBB793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */; };
-		4FD7FBC81BAD085200FBB793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC71BAD085200FBB793 /* ViewController.swift */; };
 		4FD7FBCB1BAD085200FBB793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC91BAD085200FBB793 /* Main.storyboard */; };
 		4FD7FBCD1BAD085200FBB793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBCC1BAD085200FBB793 /* Assets.xcassets */; };
 		4FD7FBD01BAD085200FBB793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBCE1BAD085200FBB793 /* LaunchScreen.storyboard */; };
 		4FD7FBDB1BAD085200FBB793 /* RedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBDA1BAD085200FBB793 /* RedoTests.swift */; };
 		4FD7FBE61BAD085200FBB793 /* RedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBE51BAD085200FBB793 /* RedoUITests.swift */; };
+		4FD7FBF41BAD08C400FBB793 /* RedoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBF31BAD08C400FBB793 /* RedoListVC.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD7FBFF1BAD164300FBB793 /* RedoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBFE1BAD164300FBB793 /* RedoVC.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD7FC411BAE498500FBB793 /* Redo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC3F1BAE498500FBB793 /* Redo.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		4FD7FC471BAE4B1900FBB793 /* RedoList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC431BAE4B1900FBB793 /* RedoList+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD7FC481BAE4B1900FBB793 /* RedoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC441BAE4B1900FBB793 /* RedoList.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD7FC491BAE4B1900FBB793 /* Redo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC451BAE4B1900FBB793 /* Redo+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD7FC4A1BAE4B1900FBB793 /* Redo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC461BAE4B1900FBB793 /* Redo.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		4FD7FBC21BAD085200FBB793 /* Redo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FD7FBC71BAD085200FBB793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FD7FBCA1BAD085200FBB793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FD7FBCC1BAD085200FBB793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FD7FBCF1BAD085200FBB793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		4FD7FBE11BAD085200FBB793 /* RedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD7FBE51BAD085200FBB793 /* RedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedoUITests.swift; sourceTree = "<group>"; };
 		4FD7FBE71BAD085200FBB793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD7FBF31BAD08C400FBB793 /* RedoListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedoListVC.swift; sourceTree = "<group>"; };
+		4FD7FBFE1BAD164300FBB793 /* RedoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedoVC.swift; sourceTree = "<group>"; };
+		4FD7FC401BAE498500FBB793 /* Redo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Redo.xcdatamodel; sourceTree = "<group>"; };
+		4FD7FC431BAE4B1900FBB793 /* RedoList+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RedoList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4FD7FC441BAE4B1900FBB793 /* RedoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedoList.swift; sourceTree = "<group>"; };
+		4FD7FC451BAE4B1900FBB793 /* Redo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Redo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4FD7FC461BAE4B1900FBB793 /* Redo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Redo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,14 @@
 		4FD7FBC41BAD085200FBB793 /* Redo */ = {
 			isa = PBXGroup;
 			children = (
+				4FD7FC421BAE4B0300FBB793 /* Models */,
 				4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */,
-				4FD7FBC71BAD085200FBB793 /* ViewController.swift */,
 				4FD7FBC91BAD085200FBB793 /* Main.storyboard */,
 				4FD7FBCC1BAD085200FBB793 /* Assets.xcassets */,
 				4FD7FBCE1BAD085200FBB793 /* LaunchScreen.storyboard */,
 				4FD7FBD11BAD085200FBB793 /* Info.plist */,
+				4FD7FBF31BAD08C400FBB793 /* RedoListVC.swift */,
+				4FD7FBFE1BAD164300FBB793 /* RedoVC.swift */,
 			);
 			path = Redo;
 			sourceTree = "<group>";
@@ -123,6 +137,18 @@
 				4FD7FBE71BAD085200FBB793 /* Info.plist */,
 			);
 			path = RedoUITests;
+			sourceTree = "<group>";
+		};
+		4FD7FC421BAE4B0300FBB793 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7FC431BAE4B1900FBB793 /* RedoList+CoreDataProperties.swift */,
+				4FD7FC441BAE4B1900FBB793 /* RedoList.swift */,
+				4FD7FC451BAE4B1900FBB793 /* Redo+CoreDataProperties.swift */,
+				4FD7FC461BAE4B1900FBB793 /* Redo.swift */,
+				4FD7FC3F1BAE498500FBB793 /* Redo.xcdatamodeld */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD7FBC81BAD085200FBB793 /* ViewController.swift in Sources */,
+				4FD7FBF41BAD08C400FBB793 /* RedoListVC.swift in Sources */,
+				4FD7FC481BAE4B1900FBB793 /* RedoList.swift in Sources */,
+				4FD7FBFF1BAD164300FBB793 /* RedoVC.swift in Sources */,
+				4FD7FC491BAE4B1900FBB793 /* Redo+CoreDataProperties.swift in Sources */,
 				4FD7FBC61BAD085200FBB793 /* AppDelegate.swift in Sources */,
+				4FD7FC471BAE4B1900FBB793 /* RedoList+CoreDataProperties.swift in Sources */,
+				4FD7FC411BAE498500FBB793 /* Redo.xcdatamodeld in Sources */,
+				4FD7FC4A1BAE4B1900FBB793 /* Redo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ela.build.Redo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -411,6 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ela.build.Redo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -499,6 +533,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4FD7FC3F1BAE498500FBB793 /* Redo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4FD7FC401BAE498500FBB793 /* Redo.xcdatamodel */,
+			);
+			currentVersion = 4FD7FC401BAE498500FBB793 /* Redo.xcdatamodel */;
+			path = Redo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4FD7FBBA1BAD085200FBB793 /* Project object */;
 }
