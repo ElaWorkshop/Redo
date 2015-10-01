@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="h0e-P4-pTG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9052" systemVersion="14F1012" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="h0e-P4-pTG">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
     </dependencies>
     <scenes>
-        <!--Redos-->
+        <!--Redo List-->
         <scene sceneID="hpi-VN-1pX">
             <objects>
                 <tableViewController id="4K1-p0-C59" customClass="RedoListVC" customModule="Redo" customModuleProvider="target" sceneMemberID="viewController">
@@ -43,9 +43,13 @@
                             <outlet property="delegate" destination="4K1-p0-C59" id="aJX-Nu-ohA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Redos" id="tyu-fn-mFf">
+                    <navigationItem key="navigationItem" title="Redo List" id="tyu-fn-mFf">
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="5tC-js-xJN"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="agW-FN-CPP"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="agW-FN-CPP">
+                            <connections>
+                                <action selector="addRedoList:" destination="4K1-p0-C59" id="859-mM-E99"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <segue destination="xG0-j5-tZk" kind="show" identifier="openRedoList" id="AbC-0y-Y7t"/>
@@ -88,7 +92,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Title" id="KED-6f-93X">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="bbd-lK-hkh"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="bbd-lK-hkh">
+                            <connections>
+                                <action selector="addRedo:" destination="xG0-j5-tZk" id="2Wh-ID-Amg"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vjf-aS-R02" userLabel="First Responder" sceneMemberID="firstResponder"/>

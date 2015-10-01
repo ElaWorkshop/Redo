@@ -10,7 +10,4 @@ import Foundation
 import CoreData
 
 class Redo: NSManagedObject {
-
-// Insert code here to add functionality to your managed object subclass
-
 }

@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FCC634E1BBDA7AD00E9B89F /* RedoFRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC634D1BBDA7AD00E9B89F /* RedoFRC.swift */; };
 		4FD7FBC61BAD085200FBB793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */; };
 		4FD7FBCB1BAD085200FBB793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC91BAD085200FBB793 /* Main.storyboard */; };
 		4FD7FBCD1BAD085200FBB793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBCC1BAD085200FBB793 /* Assets.xcassets */; };
 		4FD7FBD01BAD085200FBB793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBCE1BAD085200FBB793 /* LaunchScreen.storyboard */; };
 		4FD7FBDB1BAD085200FBB793 /* RedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBDA1BAD085200FBB793 /* RedoTests.swift */; };
 		4FD7FBE61BAD085200FBB793 /* RedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBE51BAD085200FBB793 /* RedoUITests.swift */; };
-		4FD7FBF41BAD08C400FBB793 /* RedoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBF31BAD08C400FBB793 /* RedoListVC.swift */; settings = {ASSET_TAGS = (); }; };
-		4FD7FBFF1BAD164300FBB793 /* RedoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBFE1BAD164300FBB793 /* RedoVC.swift */; settings = {ASSET_TAGS = (); }; };
-		4FD7FC411BAE498500FBB793 /* Redo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC3F1BAE498500FBB793 /* Redo.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
-		4FD7FC471BAE4B1900FBB793 /* RedoList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC431BAE4B1900FBB793 /* RedoList+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
-		4FD7FC481BAE4B1900FBB793 /* RedoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC441BAE4B1900FBB793 /* RedoList.swift */; settings = {ASSET_TAGS = (); }; };
-		4FD7FC491BAE4B1900FBB793 /* Redo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC451BAE4B1900FBB793 /* Redo+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
-		4FD7FC4A1BAE4B1900FBB793 /* Redo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC461BAE4B1900FBB793 /* Redo.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD7FBF41BAD08C400FBB793 /* RedoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBF31BAD08C400FBB793 /* RedoListVC.swift */; };
+		4FD7FBFF1BAD164300FBB793 /* RedoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBFE1BAD164300FBB793 /* RedoVC.swift */; };
+		4FD7FC411BAE498500FBB793 /* Redo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC3F1BAE498500FBB793 /* Redo.xcdatamodeld */; };
+		4FD7FC471BAE4B1900FBB793 /* RedoList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC431BAE4B1900FBB793 /* RedoList+CoreDataProperties.swift */; };
+		4FD7FC481BAE4B1900FBB793 /* RedoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC441BAE4B1900FBB793 /* RedoList.swift */; };
+		4FD7FC491BAE4B1900FBB793 /* Redo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC451BAE4B1900FBB793 /* Redo+CoreDataProperties.swift */; };
+		4FD7FC4A1BAE4B1900FBB793 /* Redo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FC461BAE4B1900FBB793 /* Redo.swift */; };
+		D5ED085D4A896DFFE7DEA283 /* Pods_Redo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50106734CF8D8C6707E9D7D6 /* Pods_Redo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FCC634D1BBDA7AD00E9B89F /* RedoFRC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedoFRC.swift; sourceTree = "<group>"; };
+		4FCC634F1BBDA7D300E9B89F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4FD7FBC21BAD085200FBB793 /* Redo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FD7FBCA1BAD085200FBB793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +63,9 @@
 		4FD7FC441BAE4B1900FBB793 /* RedoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedoList.swift; sourceTree = "<group>"; };
 		4FD7FC451BAE4B1900FBB793 /* Redo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Redo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4FD7FC461BAE4B1900FBB793 /* Redo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Redo.swift; sourceTree = "<group>"; };
+		50106734CF8D8C6707E9D7D6 /* Pods_Redo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Redo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB66263A6F04C16114FF6E95 /* Pods-Redo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Redo/Pods-Redo.debug.xcconfig"; sourceTree = "<group>"; };
+		B148558C9B15709F45E6FBC6 /* Pods-Redo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Redo/Pods-Redo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5ED085D4A896DFFE7DEA283 /* Pods_Redo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +101,8 @@
 				4FD7FBD91BAD085200FBB793 /* RedoTests */,
 				4FD7FBE41BAD085200FBB793 /* RedoUITests */,
 				4FD7FBC31BAD085200FBB793 /* Products */,
+				856D79E7E6E2168DBC7C4859 /* Pods */,
+				552BC568AEB93395D6E38A61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +127,7 @@
 				4FD7FBD11BAD085200FBB793 /* Info.plist */,
 				4FD7FBF31BAD08C400FBB793 /* RedoListVC.swift */,
 				4FD7FBFE1BAD164300FBB793 /* RedoVC.swift */,
+				4FCC634D1BBDA7AD00E9B89F /* RedoFRC.swift */,
 			);
 			path = Redo;
 			sourceTree = "<group>";
@@ -151,6 +162,24 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		552BC568AEB93395D6E38A61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FCC634F1BBDA7D300E9B89F /* CoreData.framework */,
+				50106734CF8D8C6707E9D7D6 /* Pods_Redo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		856D79E7E6E2168DBC7C4859 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB66263A6F04C16114FF6E95 /* Pods-Redo.debug.xcconfig */,
+				B148558C9B15709F45E6FBC6 /* Pods-Redo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FD7FBEA1BAD085200FBB793 /* Build configuration list for PBXNativeTarget "Redo" */;
 			buildPhases = (
+				19E75C64E56D57A067976898 /* Check Pods Manifest.lock */,
 				4FD7FBBE1BAD085200FBB793 /* Sources */,
 				4FD7FBBF1BAD085200FBB793 /* Frameworks */,
 				4FD7FBC01BAD085200FBB793 /* Resources */,
+				B7953F6E7C56038E71CFD04A /* Embed Pods Frameworks */,
+				0E43627B0B91DD75285A571E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,11 +245,13 @@
 		4FD7FBBA1BAD085200FBB793 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = ElaWorkshop;
 				TargetAttributes = {
 					4FD7FBC11BAD085200FBB793 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J43JVDE84T;
 					};
 					4FD7FBD51BAD085200FBB793 = {
 						CreatedOnToolsVersion = 7.0;
@@ -276,12 +310,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E43627B0B91DD75285A571E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Redo/Pods-Redo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19E75C64E56D57A067976898 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7953F6E7C56038E71CFD04A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Redo/Pods-Redo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FD7FBBE1BAD085200FBB793 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4FD7FBF41BAD08C400FBB793 /* RedoListVC.swift in Sources */,
+				4FCC634E1BBDA7AD00E9B89F /* RedoFRC.swift in Sources */,
 				4FD7FC481BAE4B1900FBB793 /* RedoList.swift in Sources */,
 				4FD7FBFF1BAD164300FBB793 /* RedoVC.swift in Sources */,
 				4FD7FC491BAE4B1900FBB793 /* Redo+CoreDataProperties.swift in Sources */,
@@ -426,25 +509,31 @@
 		};
 		4FD7FBEB1BAD085200FBB793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB66263A6F04C16114FF6E95 /* Pods-Redo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Redo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ela.build.Redo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4FD7FBEC1BAD085200FBB793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B148558C9B15709F45E6FBC6 /* Pods-Redo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Redo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ela.build.Redo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -515,6 +604,7 @@
 				4FD7FBEC1BAD085200FBB793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD7FBED1BAD085200FBB793 /* Build configuration list for PBXNativeTarget "RedoTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +613,7 @@
 				4FD7FBEF1BAD085200FBB793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD7FBF01BAD085200FBB793 /* Build configuration list for PBXNativeTarget "RedoUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +622,7 @@
 				4FD7FBF21BAD085200FBB793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
