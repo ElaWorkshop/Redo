@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FCC634E1BBDA7AD00E9B89F /* RedoFRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC634D1BBDA7AD00E9B89F /* RedoFRC.swift */; };
 		4FD7FBC61BAD085200FBB793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */; };
 		4FD7FBCB1BAD085200FBB793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC91BAD085200FBB793 /* Main.storyboard */; };
 		4FD7FBCD1BAD085200FBB793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBCC1BAD085200FBB793 /* Assets.xcassets */; };
@@ -42,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4FCC634D1BBDA7AD00E9B89F /* RedoFRC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedoFRC.swift; sourceTree = "<group>"; };
 		4FCC634F1BBDA7D300E9B89F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4FD7FBC21BAD085200FBB793 /* Redo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 				4FD7FBD11BAD085200FBB793 /* Info.plist */,
 				4FD7FBF31BAD08C400FBB793 /* RedoListVC.swift */,
 				4FD7FBFE1BAD164300FBB793 /* RedoVC.swift */,
-				4FCC634D1BBDA7AD00E9B89F /* RedoFRC.swift */,
 			);
 			path = Redo;
 			sourceTree = "<group>";
@@ -364,7 +361,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FD7FBF41BAD08C400FBB793 /* RedoListVC.swift in Sources */,
-				4FCC634E1BBDA7AD00E9B89F /* RedoFRC.swift in Sources */,
 				4FD7FC481BAE4B1900FBB793 /* RedoList.swift in Sources */,
 				4FD7FBFF1BAD164300FBB793 /* RedoVC.swift in Sources */,
 				4FD7FC491BAE4B1900FBB793 /* Redo+CoreDataProperties.swift in Sources */,

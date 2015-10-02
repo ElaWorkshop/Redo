@@ -61,7 +61,7 @@ class RedoVC: UITableViewController, NSFetchedResultsControllerDelegate {
         self.presentViewController(newRedoPopup, animated: true, completion: nil)
     }
     
-    // MARK: - Table view data source
+    // MARK: - Table view related
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return (redosFRC.sections?.count)!
@@ -100,34 +100,42 @@ class RedoVC: UITableViewController, NSFetchedResultsControllerDelegate {
     }
 
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-//        let cell = tableView.cellForRowAtIndexPath(indexPath)
-//        let strikedRedo = NSMutableAttributedString(string: (cell!.textLabel?.text)!)
-//        strikedRedo.addAttribute(NSStrikethroughStyleAttributeName, value: 1, range: NSMakeRange(0, strikedRedo.length))
-//        cell!.textLabel?.attributedText = strikedRedo
-//        let newIndexPath = NSIndexPath(forRow: tableView.numberOfRowsInSection(1), inSection: 1)
-//        let donedRedo = redos.removeAtIndex(indexPath.row)
-//        doned.append(donedRedo)
-//        tableView.moveRowAtIndexPath(indexPath, toIndexPath: newIndexPath)
-//        tableView.deselectRowAtIndexPath(newIndexPath, animated: true)
         let thisRedo = self.redosFRC.objectAtIndexPath(indexPath) as! Redo
-        MagicalRecord.saveWithBlock { (context) -> Void in
-            thisRedo.finished = NSNumber(bool: true)
-        }
+        thisRedo.finished = NSNumber(bool: true)
+        NSManagedObjectContext.MR_defaultContext().MR_saveToPersistentStoreAndWait()
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        self.checkListFinished()
     }
 
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+        return (indexPath.section == 0)
     }
 
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+            let thisRedo = self.redosFRC.objectAtIndexPath(indexPath) as! Redo
+            thisRedo.MR_deleteEntityInContext(NSManagedObjectContext.MR_defaultContext())
+            NSManagedObjectContext.MR_defaultContext().MR_saveToPersistentStoreAndWait()
+            self.checkListFinished()
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+        }
+    }
+
+    func checkListFinished() {
+        let predicate = NSPredicate(format: "list == %@ AND finished == false", self.redoList!)
+        let count = Redo.MR_countOfEntitiesWithPredicate(predicate)
+        if (count == 0) {
+            self.redoList!.lastFinished = NSDate()
+            let resetFinished = NSBatchUpdateRequest(entity: Redo.MR_entityDescription())
+            resetFinished.propertiesToUpdate = ["finished": false]
+            let predicate = NSPredicate(format: "list == %@", self.redoList!)
+            resetFinished.predicate = predicate
+            try! NSManagedObjectContext.MR_defaultContext().executeRequest(resetFinished)
+            NSManagedObjectContext.MR_defaultContext().MR_saveToPersistentStoreAndWait()
+
+            self.navigationController?.popViewControllerAnimated(true)
         }
     }
 
@@ -171,7 +179,7 @@ class RedoVC: UITableViewController, NSFetchedResultsControllerDelegate {
         switch type {
         case .Insert:
             self.tableView.insertSections(NSIndexSet(index: sectionIndex), withRowAnimation: .Fade)
-            self.tableView.reloadData()
+            self.tableView.reloadSectionIndexTitles()
         case .Delete:
             self.tableView.deleteSections(NSIndexSet(index: sectionIndex), withRowAnimation: .Fade)
         case .Update:
