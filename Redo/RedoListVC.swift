@@ -66,7 +66,7 @@ class RedoListVC: UITableViewController, NSFetchedResultsControllerDelegate {
         let redoList = self.redoListFRC.objectAtIndexPath(indexPath) as! RedoList
         cell.textLabel?.text = redoList.name
         if ((redoList.lastFinished) != nil) {
-            cell.detailTextLabel?.text = "Last: \(redoList.lastFinished!.description)"
+            cell.detailTextLabel?.text = "Last: \(redoList.lastFinished!.description); Total: \(redoList.finishCount!)"
         }
         else {
             cell.detailTextLabel?.text = "Fresh..."

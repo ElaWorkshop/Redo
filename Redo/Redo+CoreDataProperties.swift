@@ -2,7 +2,7 @@
 //  Redo+CoreDataProperties.swift
 //  Redo
 //
-//  Created by AquarHEAD L. on 02/10/2015.
+//  Created by AquarHEAD L. on 06/10/2015.
 //  Copyright © 2015 ElaWorkshop. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -15,8 +15,8 @@ import CoreData
 extension Redo {
 
     @NSManaged var detail: String?
-    @NSManaged var order: NSNumber?
     @NSManaged var finished: NSNumber?
+    @NSManaged var order: NSNumber?
     @NSManaged var list: RedoList?
 
 }

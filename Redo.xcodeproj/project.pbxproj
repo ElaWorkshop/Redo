@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F4340B01BC2C7E100F3A886 /* Redo1-2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4F4340AF1BC2C7E100F3A886 /* Redo1-2.xcmappingmodel */; };
+		4F4340B41BC2D91D00F3A886 /* RedoList1to2MigrationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4340B31BC2D91D00F3A886 /* RedoList1to2MigrationPolicy.swift */; };
 		4FD7FBC61BAD085200FBB793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */; };
 		4FD7FBCB1BAD085200FBB793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBC91BAD085200FBB793 /* Main.storyboard */; };
 		4FD7FBCD1BAD085200FBB793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7FBCC1BAD085200FBB793 /* Assets.xcassets */; };
@@ -41,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F4340AE1BC2C79900F3A886 /* Redo2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Redo2.xcdatamodel; sourceTree = "<group>"; };
+		4F4340AF1BC2C7E100F3A886 /* Redo1-2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "Redo1-2.xcmappingmodel"; sourceTree = "<group>"; };
+		4F4340B31BC2D91D00F3A886 /* RedoList1to2MigrationPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedoList1to2MigrationPolicy.swift; sourceTree = "<group>"; };
 		4FCC634F1BBDA7D300E9B89F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4FD7FBC21BAD085200FBB793 /* Redo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD7FBC51BAD085200FBB793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +160,8 @@
 				4FD7FC451BAE4B1900FBB793 /* Redo+CoreDataProperties.swift */,
 				4FD7FC461BAE4B1900FBB793 /* Redo.swift */,
 				4FD7FC3F1BAE498500FBB793 /* Redo.xcdatamodeld */,
+				4F4340AF1BC2C7E100F3A886 /* Redo1-2.xcmappingmodel */,
+				4F4340B31BC2D91D00F3A886 /* RedoList1to2MigrationPolicy.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -365,8 +372,10 @@
 				4FD7FBFF1BAD164300FBB793 /* RedoVC.swift in Sources */,
 				4FD7FC491BAE4B1900FBB793 /* Redo+CoreDataProperties.swift in Sources */,
 				4FD7FBC61BAD085200FBB793 /* AppDelegate.swift in Sources */,
+				4F4340B01BC2C7E100F3A886 /* Redo1-2.xcmappingmodel in Sources */,
 				4FD7FC471BAE4B1900FBB793 /* RedoList+CoreDataProperties.swift in Sources */,
 				4FD7FC411BAE498500FBB793 /* Redo.xcdatamodeld in Sources */,
+				4F4340B41BC2D91D00F3A886 /* RedoList1to2MigrationPolicy.swift in Sources */,
 				4FD7FC4A1BAE4B1900FBB793 /* Redo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +492,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xun Lou (J43JVDE84T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xun Lou (J43JVDE84T)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -626,9 +636,10 @@
 		4FD7FC3F1BAE498500FBB793 /* Redo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				4F4340AE1BC2C79900F3A886 /* Redo2.xcdatamodel */,
 				4FD7FC401BAE498500FBB793 /* Redo.xcdatamodel */,
 			);
-			currentVersion = 4FD7FC401BAE498500FBB793 /* Redo.xcdatamodel */;
+			currentVersion = 4F4340AE1BC2C79900F3A886 /* Redo2.xcdatamodel */;
 			path = Redo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
